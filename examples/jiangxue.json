@@ -1,0 +1,29 @@
+{
+  "poem": {
+    "title": "江雪",
+    "author": "柳宗元",
+    "lines": [
+      "千山鸟飞绝",
+      "万径人踪灭",
+      "孤舟蓑笠翁",
+      "独钓寒江雪"
+    ]
+  },
+  "size": [1200, 1600],
+  "palette": {
+    "background": "#f7f8f7",
+    "ink": "#2c373e",
+    "accent": "#6f909d"
+  },
+  "reading_area": {"top": 1290, "bottom": 1510},
+  "elements": [
+    {"type": "mountain", "text": "千山", "x_range": [65, 610], "peak": [340, 320], "base_y": 880, "step": 44, "size": 34, "color": "ink", "opacity": 170},
+    {"type": "mountain", "text": "千山", "x_range": [440, 1130], "peak": [770, 420], "base_y": 900, "step": 48, "size": 33, "color": "accent", "opacity": 145},
+    {"type": "curve", "text": "万径人踪灭", "points": [[110, 880], [520, 1150], [1000, 880]], "count": 42, "size": 37, "opacity": 165},
+    {"type": "ellipse", "text": "孤舟", "center": [750, 1070], "radii": [150, 45], "start_deg": 0, "end_deg": 180, "count": 17, "size": 43, "opacity": 225},
+    {"type": "text", "text": "蓑笠翁", "at": [747, 915], "vertical": true, "size": 50},
+    {"type": "curve", "text": "独钓", "points": [[790, 985], [990, 1010], [1010, 1115]], "count": 13, "size": 30, "opacity": 190},
+    {"type": "scatter", "text": "雪", "box": [100, 110, 1100, 1180], "count": 55, "size": 24, "color": "accent", "opacity": 125, "seed": 141},
+    {"type": "curve", "text": "寒江雪", "points": [[65, 1160], [600, 1185], [1135, 1160]], "count": 64, "size": 31, "color": "accent", "opacity": 150}
+  ]
+}
