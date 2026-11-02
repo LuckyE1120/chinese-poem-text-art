@@ -1,0 +1,4 @@
+interface:
+  display_name: "诗词以字成画"
+  short_description: "用诗句原字构成可读的诗意画面"
+  default_prompt: "使用 $chinese-poem-text-art，把《江雪》做成以字成画的图片。"
